@@ -5,8 +5,18 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'トップページにFeatureを記述可能です。',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: <>複数のFeatureを載せることも出来ます。3つくらいがちょうどよいですね。</>,
+  },
+  {
+    title: 'トップページにFeatureを記述可能です。',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: <>複数のFeatureを載せることも出来ます。</>,
+    description: <>複数のFeatureを載せることも出来ます。3つくらいがちょうどよいですね。</>,
+  },
+  {
+    title: 'トップページにFeatureを記述可能です。',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: <>複数のFeatureを載せることも出来ます。3つくらいがちょうどよいですね。</>,
   },
 ];
 

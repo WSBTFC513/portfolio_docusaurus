@@ -82,10 +82,6 @@ const config = {
             title: 'Webサイト',
             items: [
               {
-                label: 'Portfolio- Express メインWebサイト',
-                href: 'https://twitter.com/wasabi_tfc',
-              },
-              {
                 label: 'Portfolio - React 静的Webサイト',
                 href: 'https://wsbtfc513.github.io/portfolio_react/',
               },

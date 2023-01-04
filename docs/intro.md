@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 概要
 
-このWebサイトはFacebook社のDocusaurusというフレームワーク用いて構成されています。
+このWebサイトはFacebook社のDocusaurusというフレームワークを用いて構成されています。
 
 Docusaurusは同じくFacebook社のReactという静的Webサイトのフレームワークをベースにして開発されています。
 
