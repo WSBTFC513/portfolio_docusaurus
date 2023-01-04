@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WSBTFC513 Portfolio',
+  tagline: '山葵のポートフォリオとして作成したドキュメントWebサイト',
   url: 'https://wsbtfc513.github.io',
   baseUrl: '/portfolio_docusaurus',
   onBrokenLinks: 'throw',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'WSBTFC513', // Usually your GitHub org/user name.
+  projectName: 'portfolio_docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'jp',
+    locales: ['jp'],
   },
 
   presets: [
@@ -36,13 +36,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,9 +55,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'WSBTFC513 Portfolio',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'WSBTFC513 Docusaurus Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -65,12 +65,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'ドキュメント',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'ブログ', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/WSBTFC513',
+            label: 'WSBTFC513 GitHub',
             position: 'right',
           },
         ],
@@ -79,46 +79,54 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Webサイト',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Portfolio- Express メインWebサイト',
+                href: 'https://twitter.com/wasabi_tfc',
+              },
+              {
+                label: 'Portfolio - React 静的Webサイト',
+                href: 'https://wsbtfc513.github.io/portfolio_react/',
+              },
+              {
+                label: '個人ブログ - WordPress',
+                href: 'https://tfca-wasabi.com/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'SNS',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/wasabi_tfc',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/tfca.wasabi',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://t.co/8tXUEsCX9p',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'GitHub Public',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '静的Webサイト - React',
+                href: 'https://github.com/WSBTFC513/portfolio_react',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'ドキュメントWebサイト - Docusaurus',
+                href: 'https://github.com/WSBTFC513/portfolio_docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Portfolio Docusaurus, WSBTFC513. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
