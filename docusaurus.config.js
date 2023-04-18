@@ -79,15 +79,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Webサイト',
+            title: 'Web',
             items: [
               {
                 label: 'Portfolio - React 静的Webサイト',
                 href: 'https://wsbtfc513.github.io/portfolio_react/',
               },
               {
-                label: '個人ブログ - WordPress',
-                href: 'https://tfca-wasabi.com/',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCNBsRLVspnrDXCkffBvPQ4Q',
               },
             ],
           },
@@ -96,20 +96,20 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/wasabi_tfc',
+                href: 'https://twitter.com/TFCA_Co',
               },
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/tfca.wasabi',
+                href: 'https://www.facebook.com/wasabi.tfca',
               },
               {
                 label: 'Instagram',
-                href: 'https://t.co/8tXUEsCX9p',
+                href: 'https://www.instagram.com/tfca_co',
               },
             ],
           },
           {
-            title: 'GitHub Public',
+            title: 'GitHub パブリック公開コンテンツ',
             items: [
               {
                 label: '静的Webサイト - React',
