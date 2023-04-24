@@ -9,7 +9,7 @@ const config = {
   title: 'WSBTFC513 Portfolio',
   tagline: '山葵のポートフォリオとして作成したドキュメントWebサイト',
   url: 'https://wsbtfc513.github.io',
-  baseUrl: '/portfolio_docusaurus',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -117,7 +117,7 @@ const config = {
               },
               {
                 label: 'ドキュメントWebサイト - Docusaurus',
-                href: 'https://github.com/WSBTFC513/portfolio_docusaurus',
+                href: 'https://portfolio.tfca-wasabi.com',
               },
             ],
           },
