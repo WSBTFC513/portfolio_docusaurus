@@ -2,21 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portfolio.tfca-wasabi.com/blog</id>
     <title>WSBTFC Portfolio Blog</title>
-    <updated>2023-01-04T00:00:00.000Z</updated>
+    <updated>2023-04-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portfolio.tfca-wasabi.com/blog"/>
     <subtitle>WSBTFC Portfolio Blog</subtitle>
     <icon>https://portfolio.tfca-wasabi.com/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[ドメイン導入]]></title>
+        <id>cname-domain</id>
+        <link href="https://portfolio.tfca-wasabi.com/blog/cname-domain"/>
+        <updated>2023-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ドメインの発行により、GitHub PagesのURLをドメインのものからリダイレクトされるように変更しました。]]></summary>
+        <content type="html"><![CDATA[<p>ドメインの発行により、GitHub PagesのURLをドメインのものからリダイレクトされるように変更しました。</p><p>同時に、ポートフォリオとしての記載事項をより具体化するための準備を行っています。</p>]]></content>
+        <author>
+            <name>WSBTFC</name>
+            <uri>https://portfolio.tfca-wasabi.com</uri>
+        </author>
+        <category label="url" term="url"/>
+        <category label="domain" term="domain"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[初回ブログ記事]]></title>
         <id>first-blog-post</id>
         <link href="https://portfolio.tfca-wasabi.com/blog/first-blog-post"/>
         <updated>2023-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurusはブログ記事として、更新履歴を残せます。]]></summary>
-        <content type="html"><![CDATA[<p>Docusaurusはブログ記事として、更新履歴を残せます。</p><p>編集内容は、WebサイトのソースコードであるGitHubへの反映によって更新されます。</p>]]></content>
+        <summary type="html"><![CDATA[Docusaurusにより、ポートフォリオ用のWebサイトを構築しました。]]></summary>
+        <content type="html"><![CDATA[<p>Docusaurusにより、ポートフォリオ用のWebサイトを構築しました。</p><p><code>GitHub Actions</code>や<code>GitHub Pages</code>の検証も兼ねています。</p>]]></content>
         <author>
-            <name>WSBTFC513</name>
-            <uri>https://github.com/WSBTFC513</uri>
+            <name>WSBTFC</name>
+            <uri>https://portfolio.tfca-wasabi.com</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>

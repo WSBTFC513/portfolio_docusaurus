@@ -4,17 +4,27 @@
         <title>WSBTFC Portfolio Blog</title>
         <link>https://portfolio.tfca-wasabi.com/blog</link>
         <description>WSBTFC Portfolio Blog</description>
-        <lastBuildDate>Wed, 04 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>jp</language>
+        <item>
+            <title><![CDATA[ドメイン導入]]></title>
+            <link>https://portfolio.tfca-wasabi.com/blog/cname-domain</link>
+            <guid>cname-domain</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ドメインの発行により、GitHub PagesのURLをドメインのものからリダイレクトされるように変更しました。]]></description>
+            <content:encoded><![CDATA[<p>ドメインの発行により、GitHub PagesのURLをドメインのものからリダイレクトされるように変更しました。</p><p>同時に、ポートフォリオとしての記載事項をより具体化するための準備を行っています。</p>]]></content:encoded>
+            <category>url</category>
+            <category>domain</category>
+        </item>
         <item>
             <title><![CDATA[初回ブログ記事]]></title>
             <link>https://portfolio.tfca-wasabi.com/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurusはブログ記事として、更新履歴を残せます。]]></description>
-            <content:encoded><![CDATA[<p>Docusaurusはブログ記事として、更新履歴を残せます。</p><p>編集内容は、WebサイトのソースコードであるGitHubへの反映によって更新されます。</p>]]></content:encoded>
+            <description><![CDATA[Docusaurusにより、ポートフォリオ用のWebサイトを構築しました。]]></description>
+            <content:encoded><![CDATA[<p>Docusaurusにより、ポートフォリオ用のWebサイトを構築しました。</p><p><code>GitHub Actions</code>や<code>GitHub Pages</code>の検証も兼ねています。</p>]]></content:encoded>
             <category>hello</category>
             <category>docusaurus</category>
         </item>
