@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WSBTFC513 Portfolio',
-  tagline: '山葵のポートフォリオとして作成したドキュメントWebサイト',
-  url: 'https://wsbtfc513.github.io',
+  title: 'WSBTFC Portfolio',
+  tagline: '今までの実績をまとめたWebサイト',
+  url: 'https://portfolio.tfca-wasabi.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'WSBTFC513', // Usually your GitHub org/user name.
+  organizationName: 'WSBTFC', // Usually your GitHub org/user name.
   projectName: 'portfolio_docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -32,18 +32,18 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
-        },
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
+        // },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: 'https://github.com/WSBTFC513/portfolio_docusaurus/tree/main/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -111,10 +111,10 @@ const config = {
           {
             title: 'GitHub パブリック公開コンテンツ',
             items: [
-              {
-                label: '静的Webサイト - React',
-                href: 'https://github.com/WSBTFC513/portfolio_react',
-              },
+              // {
+              //   label: '静的Webサイト - React',
+              //   href: 'https://github.com/WSBTFC513/portfolio_react',
+              // },
               {
                 label: 'ドキュメントWebサイト - Docusaurus',
                 href: 'https://portfolio.tfca-wasabi.com',
