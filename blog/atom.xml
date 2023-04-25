@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://wsbtfc513.github.io/blog</id>
-    <title>WSBTFC513 Portfolio Blog</title>
+    <id>https://portfolio.tfca-wasabi.com/blog</id>
+    <title>WSBTFC Portfolio Blog</title>
     <updated>2023-01-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://wsbtfc513.github.io/blog"/>
-    <subtitle>WSBTFC513 Portfolio Blog</subtitle>
-    <icon>https://wsbtfc513.github.io/img/favicon.ico</icon>
+    <link rel="alternate" href="https://portfolio.tfca-wasabi.com/blog"/>
+    <subtitle>WSBTFC Portfolio Blog</subtitle>
+    <icon>https://portfolio.tfca-wasabi.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[初回ブログ記事]]></title>
         <id>first-blog-post</id>
-        <link href="https://wsbtfc513.github.io/blog/first-blog-post"/>
+        <link href="https://portfolio.tfca-wasabi.com/blog/first-blog-post"/>
         <updated>2023-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurusはブログ記事として、更新履歴を残せます。]]></summary>
         <content type="html"><![CDATA[<p>Docusaurusはブログ記事として、更新履歴を残せます。</p><p>編集内容は、WebサイトのソースコードであるGitHubへの反映によって更新されます。</p>]]></content>
