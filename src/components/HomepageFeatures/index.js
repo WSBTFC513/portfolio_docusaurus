@@ -4,19 +4,19 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'トップページに',
+    title: 'IT導入・DX化',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: <>複数のFeatureを載せることも出来ます。</>,
+    description: <>Raspberry Piを用いたITシステムの製作が可能です。</>,
   },
   {
-    title: 'Featureを',
+    title: 'Webサイト・Webシステム',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: <>3つくらいがちょうどよいですね。</>,
+    description: <>通常のWebサイト構築からプラットフォームとして扱えるWebシステムまでの製作が可能です。</>,
   },
   {
-    title: '記述可能です',
+    title: 'スマートフォンアプリ',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: <>画像も簡単に切替可能です。</>,
+    description: <>Androidスマートフォンでのアプリ製作が可能です。</>,
   },
 ];
 

@@ -2,10 +2,10 @@
 slug: first-blog-post
 title: 初回ブログ記事
 authors:
-  wsbtfc513
+  wsbtfc
 tags: [hello, docusaurus]
 ---
 
-Docusaurusはブログ記事として、更新履歴を残せます。
+Docusaurusにより、ポートフォリオ用のWebサイトを構築しました。
 
-編集内容は、WebサイトのソースコードであるGitHubへの反映によって更新されます。
+`GitHub Actions`や`GitHub Pages`の検証も兼ねています。

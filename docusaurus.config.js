@@ -55,10 +55,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'WSBTFC513 Portfolio',
+        title: 'WSBTFC Portfolio',
         logo: {
-          alt: 'WSBTFC513 Docusaurus Site Logo',
-          src: 'img/logo.png',
+          alt: 'WSBTFC Docusaurus Site Logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -68,11 +68,11 @@ const config = {
             label: 'ドキュメント',
           },
           { to: '/blog', label: 'ブログ', position: 'left' },
-          {
-            href: 'https://github.com/WSBTFC513',
-            label: 'WSBTFC513 GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/WSBTFC513',
+          //   label: 'WSBTFC GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -81,10 +81,10 @@ const config = {
           {
             title: 'Web',
             items: [
-              {
-                label: 'Portfolio - React 静的Webサイト',
-                href: 'https://wsbtfc513.github.io/portfolio_react/',
-              },
+              // {
+              //   label: 'Portfolio - React 静的Webサイト',
+              //   href: 'https://wsbtfc513.github.io/portfolio_react/',
+              // },
               {
                 label: 'YouTube',
                 href: 'https://www.youtube.com/channel/UCNBsRLVspnrDXCkffBvPQ4Q',
@@ -116,13 +116,13 @@ const config = {
               //   href: 'https://github.com/WSBTFC513/portfolio_react',
               // },
               {
-                label: 'ドキュメントWebサイト - Docusaurus',
+                label: 'Webサイト - Docusaurus',
                 href: 'https://portfolio.tfca-wasabi.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Portfolio Docusaurus, WSBTFC513. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Portfolio Docusaurus, WSBTFC. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
